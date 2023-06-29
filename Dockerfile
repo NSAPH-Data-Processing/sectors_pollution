@@ -10,17 +10,19 @@ COPY requirements.yaml .
 # install dependencies
 RUN conda env update -n base --file requirements.yaml
 
+# make directories
+RUN mkdir /in
+RUN mkdir /out
+RUN mkdir /shapefiles
+
 # set working directory
 WORKDIR /app
 
-# copy all code to /app
-COPY . .
-
-# make out directory
-RUN mkdir /out
-
-# workdir /out/
-WORKDIR /out
+# copy code to /app
+COPY ./conf .
+COPY ./aggregate.py .
+COPY ./utils.py .
 
 # ENTRYPOINT
-ENTRYPOINT ["python3", "/app/aggregate.py", "hydra.run.dir=/out/outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}", "hydra.searchpath=[file:///out/conf,file://out]"]
+CMD ["hydra.run.dir=/out/${now:%Y-%m-%d}/${now:%H-%M-%S}"]
+ENTRYPOINT ["python3", "aggregate.py"]
