@@ -1,4 +1,4 @@
-name: ncagg
+name: sectors_pollution_env
 channels:
  - defaults
  - conda-forge
