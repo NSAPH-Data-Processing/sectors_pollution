@@ -1,0 +1,224 @@
+dir: /in
+tasks:
+  - file: 2013.Sectors.US.BC_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.BC_FIRE.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.BC_IND.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.BC_Other.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.BC_POW.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.BC_RCO.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.BC_Total.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.BC_TRA.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NH4_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NH4_FIRE.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NH4_IND.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NH4_Other.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NH4_POW.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NH4_RCO.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NH4_Total.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NH4_TRA.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NIT_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NIT_FIRE.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NIT_IND.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NIT_Other.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NIT_POW.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NIT_RCO.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NIT_Total.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.NIT_TRA.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.PM25_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.PM25_FIRE.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.PM25_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.PM25_FIRE.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.PM25_IND.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.PM25_Other.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.PM25_POW.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.PM25_RCO.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.PM25_Total.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.PM25_TRA.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.POA_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.POA_FIRE.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.POA_IND.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.POA_Other.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.POA_POW.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.POA_RCO.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.POA_Total.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.POA_TRA.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SO4_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SO4_FIRE.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SO4_IND.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SO4_Other.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SO4_POW.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SO4_RCO.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SO4_Total.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SO4_TRA.
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOA_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOA_FIRE.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOA_IND.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOA_Other.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOA_POW.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOA_RCO.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOA_Total.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOA_TRA.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOIL_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOIL_FIRE.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOIL_IND.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOIL_Other.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOIL_POW.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOIL_RCO.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOIL_Total.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SOIL_TRA.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SS_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SS_FIRE.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SS_IND.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SS_Other.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SS_POW.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SS_RCO.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SS_Total.1km.nc
+    shapefile: 2013
+    layer: PM25
+  - file: 2013.Sectors.US.SS_TRA.1km.nc
+    shapefile: 2013
+    layer: PM25

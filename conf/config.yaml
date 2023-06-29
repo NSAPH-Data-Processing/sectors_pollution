@@ -1,0 +1,32 @@
+defaults:
+  - _self_
+  - job:  test_job
+  - shapefiles: zcta
+all_touched: true
+output:
+  dir: ${hydra:run.dir}
+  save_feats: true
+  save_shp: false
+job: ############ illustration of a job conf ------------
+  dir: /in
+  lon: lon  # name of longitude attribute in .nc file
+            # typically lon, LON, longitude, or can also use
+            # a numeric index like 0, 1, 2, etc.
+  lat: lat  # name of latitude attribute in .nc file
+  stats: ["mean", "count", "min", "max"]  # as list
+  tasks: #illustration of how to add multiple tasks
+    - file: file1.nc
+      shapefile: shp_key_in_shapefiles
+      layer: var1
+    - file: file2.nc
+      shapefile: path_shapefile_in_shapefiles.dir
+      layer: var1
+  nodata: nan  # value to use for no data in the netcdf/raster
+               # most of the time xarray automatically detects
+               # the missing data as np.nan, so shouldn't need to
+               # change
+shapefiles: ############ illustration of shapefiles conf ------------
+  dir: /shapefiles
+  files:
+    key1: url1
+    key2: path_in_dir

@@ -1,0 +1,9 @@
+dir: /in
+tasks:
+  - file: 2013.Sectors.US.BC_AGR.1km.nc
+    shapefile: 2013
+    layer: PM25
+  # - file: 2013.Sectors.US.PM25_Total.1km_b.nc
+  #   shapefile: 2013/shapefile.shp
+  #   layer: PM25
+
