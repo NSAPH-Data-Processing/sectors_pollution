@@ -1,9 +1,43 @@
 # sectors_pollution
-Spatial aggregation from 1-kilometer grid to zcta of sectors pollution
+
+Code to produce a spatial aggregation from 1km grid to zcta of sectors pollution.
+
+Currently, access to the input data is not open, but authors are able to share `sectors_pollution__input_data.zip` upon request. To run the code unzip `sectors_pollution__input_data.zip` in this location `data/input/`.
+
+## Data
+
+The Sectors Pollution data consists of the total mass of PM2.5 and of 8 components categorized by sectors. Sectors refer to the different categories or segments encompassing various industries in the United States.
+​
+Time range: 2013​
+
+**Components**:
+  * SO4: sulfate​
+  * NIT: nitrate​
+  * NH4: ammonium​
+  * POA: primary organic mass​
+  * SOA: secondary organic mass​
+  * BC: black carbon​
+  * SOIL: dust​
+  * SS: sea salt​
+  * PM25​
+​
+**Sectors**: ​
+  * TOTAL: All​
+  * POW: power generation​
+  * IND: industry​
+  * TRA: transportation​
+  * AGR: agriculture​
+  * RCO: residential combustion​
+  * FIRE: open fire burning​
+  * OTHER: other sources including ​biogenic and non-US emissions​
+
+For an exploratory analysis of the input and output data look at:
+  * [notes/in.ipynb](./notes/in.ipynb)
+  * [notes/out.ipynb](./notes/out.ipynb) 
 
 ## Run
 
-The easiest way is to use the docker image. For this, you will need to add a local job file at the path `conf/job/<job_name>.yaml` (see below for the contents). Then run
+The easiest way is to use the docker image. For this, you must add a local job file at the path `conf/job/<job_name>.yaml` (see below for the contents). Then run
 
 ```bash
 docker run -v $(pwd)/data/input/<symlink_lab>:/in -v $(pwd)/data/output/<symlink_lab>:/out -v $(pwd)/data/shapefiles/<symlink_lab>:/shapefiles <nsaph_accout>/sectors_pollution
