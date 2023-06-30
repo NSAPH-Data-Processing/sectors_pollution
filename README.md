@@ -2,7 +2,7 @@
 
 Code to produce a spatial aggregation from 1km grid to zcta of sectors pollution.
 
-Currently, access to the input data is not open, but authors are able to share `sectors_pollution__input_data.zip` upon request. To run the code unzip `sectors_pollution__input_data.zip` in this location `data/input/`.
+Currently, access to the input data is not open, but authors are able to share `sectors_pollution__input_data.zip` upon request. To run the code unzip the compressed files in this location `data/input/`.
 
 ## Data
 
